@@ -8,34 +8,36 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
     />
+    <link rel="stylesheet" href="css/styles.css" class="stylesheet" />
     <title>Chat | Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span class="status-bar__clock">13:54</span>
       <div class="status-bar__column">
-        <img src="image/clock.png" width="15" height="15" />
-        <i class="fas fa-volume-up"></i>
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery">99%</span>
+        <span class="status-bar__battery-level">99%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
       <div class="class header__header-column">
         <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left fa-2x"></i>
+          <i class="fas fa-arrow-left"></i>
         </a>
-
         <h1 class="class header__title">株式会社スリー・イー</h1>
       </div>
       <div class="class header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <div class="header-icon">
+        <span class="header__icon">
           <i class="fas fa-bars"></i>
-        </div>
+        </span>
       </div>
     </header>
     <main class="chat">
