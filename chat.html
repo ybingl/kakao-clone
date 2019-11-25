@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <title>Chat | Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column"></div>
+      <span class="status-bar__clock">13:54</span>
+      <div class="status-bar__column">
+        <img src="image/clock.png" width="15" height="15" />
+        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery">99%</span>
+      </div>
+    </div>
+    <header class="header">
+      <div class="class header__header-column">
+        <a href="index.html" class="header__back-btn">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+
+        <h1 class="class header__title">株式会社スリー・イー</h1>
+      </div>
+      <div class="class header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <div class="header-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Friday, 6 December, 2019</span>
+        <li class="incoming-message message">
+          <img src="image/rio.jpg" class="g-avatar message" />
+          <div class="message__content">
+            <span class="message__author">株式会社スリー・イー</span>
+            <div class="message__bubble">
+              おめでとうございます。
+            </div>
+          </div>
+          <span class="message__timestamp">15:20 </span>
+        </li>
+        <li class="incoming-message message">
+          <div class="message__content">
+            <span class="message__timestamp">15:21 </span>
+            <div class="message__bubble">
+              どうもありがとうございます。
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="image/rio.jpg" class="g-avatar message" />
+          <div class="message__content">
+            <span class="message__author">株式会社スリー・イー</span>
+            <div class="message__bubble">
+              それではまたお目にかかります。
+            </div>
+          </div>
+          <span class="message__timestamp">15:22 </span>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-columl">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-columl">
+        <input
+          type="text"
+          placeholder="Send Message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-columl">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
