@@ -69,3 +69,7 @@
   background-color: #f5f5f5;
   border-radius: 5px;
 }
+
+.friends__friend {
+  margin-bottom: 10px;
+}
